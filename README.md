@@ -8,7 +8,7 @@ Steps:
 ```sh
 npm init -y && npm i --save-dev node@11 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH
 ```
-or
+## Or
 
 ```sh
 npm install -D node@17

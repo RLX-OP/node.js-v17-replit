@@ -6,7 +6,7 @@ Steps:
 
 1. Execute this script **on the shell** to install node and configure npm.
 ```sh
-npm init -y && npm i --save-dev node@11 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH
+npm init -y && npm i --save-dev node@17 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH
 ```
 ## Or
 

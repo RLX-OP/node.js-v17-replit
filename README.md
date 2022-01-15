@@ -8,16 +8,23 @@ Steps:
 ```sh
 npm init -y && npm i --save-dev node@17 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH
 ```
-## Or
+Or:
 
 ```sh
 npm install -D node@17
 ```
+Or:
+
+```sh
+npm install node@17 --save-dev
+```
+
 
 2. Create the [`.replit`](https://docs.repl.it/repls/dot-replit) to execute node from the shell instead of the console.
 ```
 run = "npm start"
 ```
+
 
 3. Make sure to add the start script in your package.json file
 ```js
@@ -25,12 +32,13 @@ run = "npm start"
     "start": "node ."
   }
 ```
-
-## Or
+Or:
+```
 In .replit file simply type
 ```
 run = "npx node ."
 ```
+
 
 4. (Optional) If you had packages like discord.js before, you need to re-install those packages
 ```

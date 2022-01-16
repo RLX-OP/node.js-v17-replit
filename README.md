@@ -33,7 +33,7 @@ run = "npm start"
   }
 ```
 Or:
-```
+
 In .replit file simply type
 ```
 run = "npx node ."

@@ -16,7 +16,7 @@ npm install -D node@17
 Or:
 
 ```sh
-npm install node@17 --save-dev
+npm install --save-dev node@17
 ```
 
 
@@ -33,9 +33,9 @@ run = "npm start"
   }
 ```
 Or:
-```
+
 In .replit file simply type
-```
+```sh
 run = "npx node ."
 ```
 
